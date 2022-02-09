@@ -1,0 +1,31 @@
+{
+  "name": "expresstypescriptapi",
+  "version": "1.0.0",
+  "description": "TypeScript Express, Middleware, routing and Controllers Backend App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "expressTypeScript"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "api",
+    "middleware",
+    "routing",
+    "controller"
+  ],
+  "author": "Mouhamed SONKO",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
