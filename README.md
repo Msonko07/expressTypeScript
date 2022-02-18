@@ -67,14 +67,11 @@ If you discover a security vulnerability in Express, please see [Security Polici
   Install the executable. The executable's major version will match Express's:
 
 ```bash
-$ npm install -g express-generator@4
-```
+$ npm init
+$ npm install typescript express ts-node```
 
   Create the app:
 
-```bash
-$ express /tmp/foo && cd /tmp/foo
-```
 
   Install dependencies:
 
@@ -85,7 +82,7 @@ $ npm install
   Start the server:
 
 ```bash
-$ npm start
+$ npm run dev
 ```
 
   View the website at: http://localhost:5000
