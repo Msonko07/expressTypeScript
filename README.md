@@ -19,19 +19,14 @@ app.get('/', function (req, res) {
 app.listen(5000)
 ```
 
-## Installation
+## Prerequisites
 
-This is a [Node.js](https://nodejs.org/en/) module available through the
-[npm registry](https://www.npmjs.com/).
+Make sure you have installed all of the following prerequisites on your development machine:
 
-Before installing, [download and install Node.js](https://nodejs.org/en/download/).
-Node.js 0.10 or higher is required.
-
-If this is a brand new project, make sure to create a `package.json` first with
-the [`npm init` command](https://docs.npmjs.com/creating-a-package-json-file).
-
-Installation is done using the
-[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+- [Git] - [Download & Install Git] (https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
+- [Node.js] - [Download & Install Node.js] (https://nodejs.org/en/download/) and the npm package manager.
+  Node >= 14.15.1, npm >= 6.14.8
+- [MongoDB] - [Download & Install MongoDB] (https://www.mongodb.com/download), and make sure to change the default port (27017).
 
 ```bash
 $ npm install express
@@ -104,6 +99,11 @@ $ npm start
   Express does not force you to use any specific ORM or template engine. With support for over
   14 template engines via [Consolidate.js](https://github.com/tj/consolidate.js),
   you can quickly craft your perfect framework.
+  
+  
+  ## Server configuration
+
+* Create an `.env` file from the` .env.example` file and give the values ​​of the environment variables
 
 ## Examples
 
@@ -134,13 +134,28 @@ $ npm test
 
 [Contributing Guide](Contributing.md)
 
-## People
+## Support
+This project is based on the Express framework.
 
-The original author of Express is [TJ Holowaychuk](https://github.com/tj)
+## Architecture
 
-The current lead maintainer is [Douglas Christopher Wilson](https://github.com/dougwilson)
+```
+ __src
+    |__posts/ - Controllers, middlewares and routes folder
+    |__config/ - all configurations
+    |__auth/ - all auth configurations
+    |__utils/ - helpers functions
+    |__main.ts - App entry point
+ __app.ts - App entry point
+ __test/ - contains all tests logic
+ __.env
+ __package.json - contains project dependencies
 
-[List of all contributors](https://github.com/expressjs/express/graphs/contributors)
+## Stay in touch
+
+- Author - [Mouhamed SONKO](https://github.com/Msonko07)
+- Website - [TechFolio]()
+
 
 ## License
 
