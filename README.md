@@ -16,7 +16,7 @@ app.get('/', function (req, res) {
   res.send('Hello World')
 })
 
-app.listen(3000)
+app.listen(5000)
 ```
 
 ## Installation
@@ -93,7 +93,7 @@ $ npm install
 $ npm start
 ```
 
-  View the website at: http://localhost:3000
+  View the website at: http://localhost:5000
 
 ## Philosophy
 
@@ -110,8 +110,8 @@ $ npm start
   To view the examples, clone the Express repo and install the dependencies:
 
 ```bash
-$ git clone git://github.com/expressjs/express.git --depth 1
-$ cd express
+$ git clone https://github.com/Msonko07/expressTypeScript.git/ --depth 1
+$ cd expressTypeScript
 $ npm install
 ```
 
